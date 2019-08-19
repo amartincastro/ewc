@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: "images/EWC_MainImage.png";
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
