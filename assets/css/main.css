@@ -3243,11 +3243,19 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			/* background-color: #5052b5; */
 		}
-
+		.wrapper.style2 .section1{
+			background-color:#008c95;
+		}
+		.wrapper.style2 .section2{
+			background-color:#b2be35;
+		}
+		.wrapper.style2 .section3{
+			background-color:#ea7924;
+		}
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			/* background-color: #3e4094; */
 		}
 
 		.wrapper.style3 {
@@ -3872,8 +3880,8 @@ input, select, textarea {
 		background-image: url("images/EWC_MainImage.png");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% auto;
-		background-position-x: 18em;
+		background-size: calc(100vw-18em) 100% !important;
+		/* background-position-x: 18em; */
 	}
 
 		#intro p {
@@ -3907,7 +3915,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				background-size:100% 90%;
+				background-size:cover;
+				background-position: center center;
+				background-position-x: 1em;
 			}
 
 		}
